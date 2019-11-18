@@ -70,7 +70,7 @@ struct sensorAttr {
 // are indicators of success or failure of the previous transmission.
 enum READ_STATUS_BYTE_VALUE {
 
-  SUCCESS1                  = 0x00,
+  SUCCESS                  = 0x00,
   ERR_UNAVAIL_CMD,
   ERR_UNAVAIL_FUNC,
   ERR_DATA_FORMAT,
@@ -121,7 +121,7 @@ enum FAMILY_REGISTER_BYTES {
 enum DEVICE_MODE_WRITE_BYTES {
 
   EXIT_BOOTLOADER          = 0x00,
-  RESET1                    = 0x02,
+  RESET                    = 0x02,
   ENTER_BOOTLOADER         = 0x08
 
 };
